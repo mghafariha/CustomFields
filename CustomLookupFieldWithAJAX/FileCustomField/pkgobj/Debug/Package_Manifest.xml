@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="b5a3226d-409e-4007-8bec-fd54bd057383" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="FileCustomField.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\FileCustomFieldControl.ascx" />
+    <TemplateFile Location="LAYOUTS\XSL\fldtypes_FileCustomField.xsl" />
+    <TemplateFile Location="XML\fldtypes_FileCustomField.xml" />
+  </TemplateFiles>
+</Solution>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="bf6d504a-d96c-4a74-b757-9c6c3e1ceff2" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="BaseSolution.dll" DeploymentTarget="WebApplication" />
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="Layouts\BaseSolution\ApplicationPage1.aspx" />
+    <TemplateFile Location="Layouts\BaseSolution\JS\ctrl.js" />
+    <TemplateFile Location="Layouts\BaseSolution\JS\jquery-3.2.1.min.js" />
+    <TemplateFile Location="Layouts\BaseSolution\JS\LinktoJS.js" />
+    <TemplateFile Location="Layouts\BaseSolution\LinktoJSPage.aspx" />
+    <TemplateFile Location="Layouts\BaseSolution\Service2.aspx" />
+    <TemplateFile Location="Layouts\BaseSolution\Services.aspx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="BaseSolution_Feature1\Feature.xml" />
+    <FeatureManifest Location="BaseSolution_Feature2\Feature.xml" />
+  </FeatureManifests>
+</Solution>

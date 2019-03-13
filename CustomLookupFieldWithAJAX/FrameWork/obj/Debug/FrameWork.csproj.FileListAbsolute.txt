@@ -1,0 +1,4 @@
+C:\Users\spadmin\documents\visual studio 2013\Projects\CustomLookupFieldWithAJAX\FrameWork\bin\Debug\FrameWork.dll
+C:\Users\spadmin\documents\visual studio 2013\Projects\CustomLookupFieldWithAJAX\FrameWork\bin\Debug\FrameWork.pdb
+C:\Users\spadmin\documents\visual studio 2013\Projects\CustomLookupFieldWithAJAX\FrameWork\obj\Debug\FrameWork.dll
+C:\Users\spadmin\documents\visual studio 2013\Projects\CustomLookupFieldWithAJAX\FrameWork\obj\Debug\FrameWork.pdb

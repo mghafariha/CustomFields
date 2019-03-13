@@ -1,0 +1,5 @@
+C:\Users\spadmin\documents\visual studio 2013\Projects\CustomLookupFieldWithAJAX\BaseSolution\bin\Debug\BaseSolution.dll
+C:\Users\spadmin\documents\visual studio 2013\Projects\CustomLookupFieldWithAJAX\BaseSolution\bin\Debug\BaseSolution.pdb
+C:\Users\spadmin\documents\visual studio 2013\Projects\CustomLookupFieldWithAJAX\BaseSolution\obj\Debug\BaseSolution.dll
+C:\Users\spadmin\documents\visual studio 2013\Projects\CustomLookupFieldWithAJAX\BaseSolution\obj\Debug\BaseSolution.pdb
+C:\Users\spadmin\documents\visual studio 2013\Projects\CustomLookupFieldWithAJAX\BaseSolution\obj\Debug\BaseSolution.csprojResolveAssemblyReference.cache

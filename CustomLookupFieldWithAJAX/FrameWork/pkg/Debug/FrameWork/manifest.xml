@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="09a942cc-2c12-4a6a-8b76-0b00e29039d0" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="FrameWork.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="Layouts\FrameWork\Pages\DisplayForm\static\css\app.fd0f8087f917a3f19047a3f1b9754f7d.css.map" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\DisplayForm\static\fonts\element-icons.b02bdc1.ttf" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\DisplayForm\static\fonts\Yekan.05727d3.woff" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\DisplayForm\static\fonts\Yekan.1008c3b.ttf" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\DisplayForm\static\fonts\Yekan.1ce443b.eot" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\DisplayForm\static\js\app.a4fe5652152a001ae56e.js.map" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\DisplayForm\static\js\manifest.5b01e90f40d6d9e3a98e.js.map" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\DisplayForm\static\js\vendor.22c599b0815b5185eb0d.js.map" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\EditForm\static\css\app.7635ae160011f4fb700e207b87559634.css.map" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\EditForm\static\fonts\element-icons.b02bdc1.ttf" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\EditForm\static\fonts\Yekan.05727d3.woff" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\EditForm\static\fonts\Yekan.1008c3b.ttf" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\EditForm\static\fonts\Yekan.1ce443b.eot" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\EditForm\static\js\app.95e5ebac36f3498d3d2c.js.map" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\EditForm\static\js\manifest.9a495aa6f4f6f923be59.js.map" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\EditForm\static\js\vendor.0461c4b5cfc0b8b26770.js.map" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\NewForm\static\css\app.f5846fa87c0b7444cbb2fed43a784231.css.map" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\NewForm\static\fonts\element-icons.b02bdc1.ttf" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\NewForm\static\fonts\Yekan.05727d3.woff" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\NewForm\static\fonts\Yekan.1008c3b.ttf" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\NewForm\static\fonts\Yekan.1ce443b.eot" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\NewForm\static\js\app.a06f2983b0b8dd157909.js.map" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\NewForm\static\js\manifest.b8261fd2499990dd5eda.js.map" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\NewForm\static\js\vendor.f40e5f726d181cac211b.js.map" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\styles\fonts\element-icons.b02bdc1.ttf" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\styles\fonts\Yekan.eot" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\styles\fonts\Yekan.ttf" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\styles\fonts\Yekan.woff" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\styles\img\Thumbs.db" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\DisplayForm\index.html" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\DisplayForm\static\css\app.fd0f8087f917a3f19047a3f1b9754f7d.css" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\DisplayForm\static\js\app.a4fe5652152a001ae56e.js" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\DisplayForm\static\js\manifest.5b01e90f40d6d9e3a98e.js" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\DisplayForm\static\js\vendor.22c599b0815b5185eb0d.js" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\EditForm\index.html" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\EditForm\static\css\app.7635ae160011f4fb700e207b87559634.css" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\EditForm\static\js\app.95e5ebac36f3498d3d2c.js" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\EditForm\static\js\manifest.9a495aa6f4f6f923be59.js" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\EditForm\static\js\vendor.0461c4b5cfc0b8b26770.js" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\NewForm\index.html" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\NewForm\static\css\app.f5846fa87c0b7444cbb2fed43a784231.css" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\NewForm\static\js\app.a06f2983b0b8dd157909.js" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\NewForm\static\js\manifest.b8261fd2499990dd5eda.js" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\NewForm\static\js\vendor.f40e5f726d181cac211b.js" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\styles\css\style.css" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\styles\css\stylenew.css" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\styles\fonts\Yekan.svg" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\styles\img\add.png" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\styles\img\Delete.png" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\styles\img\Navigate.png" />
+    <TemplateFile Location="Layouts\FrameWork\Pages\styles\img\previous.png" />
+  </TemplateFiles>
+</Solution>

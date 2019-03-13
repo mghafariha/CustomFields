@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E40F3E70-36A8-422A-B781-810A579A47F5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FrameWork</RootNamespace>
+    <AssemblyName>FrameWork</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="key.snk" />
+    <None Include="Layouts\FrameWork\Pages\DisplayForm\static\css\app.fd0f8087f917a3f19047a3f1b9754f7d.css.map" />
+    <None Include="Layouts\FrameWork\Pages\DisplayForm\static\fonts\element-icons.b02bdc1.ttf" />
+    <None Include="Layouts\FrameWork\Pages\DisplayForm\static\fonts\Yekan.05727d3.woff" />
+    <None Include="Layouts\FrameWork\Pages\DisplayForm\static\fonts\Yekan.1008c3b.ttf" />
+    <None Include="Layouts\FrameWork\Pages\DisplayForm\static\fonts\Yekan.1ce443b.eot" />
+    <None Include="Layouts\FrameWork\Pages\DisplayForm\static\js\app.a4fe5652152a001ae56e.js.map" />
+    <None Include="Layouts\FrameWork\Pages\DisplayForm\static\js\manifest.5b01e90f40d6d9e3a98e.js.map" />
+    <None Include="Layouts\FrameWork\Pages\DisplayForm\static\js\vendor.22c599b0815b5185eb0d.js.map" />
+    <None Include="Layouts\FrameWork\Pages\EditForm\static\css\app.7635ae160011f4fb700e207b87559634.css.map" />
+    <None Include="Layouts\FrameWork\Pages\EditForm\static\fonts\element-icons.b02bdc1.ttf" />
+    <None Include="Layouts\FrameWork\Pages\EditForm\static\fonts\Yekan.05727d3.woff" />
+    <None Include="Layouts\FrameWork\Pages\EditForm\static\fonts\Yekan.1008c3b.ttf" />
+    <None Include="Layouts\FrameWork\Pages\EditForm\static\fonts\Yekan.1ce443b.eot" />
+    <None Include="Layouts\FrameWork\Pages\EditForm\static\js\app.95e5ebac36f3498d3d2c.js.map" />
+    <None Include="Layouts\FrameWork\Pages\EditForm\static\js\manifest.9a495aa6f4f6f923be59.js.map" />
+    <None Include="Layouts\FrameWork\Pages\EditForm\static\js\vendor.0461c4b5cfc0b8b26770.js.map" />
+    <None Include="Layouts\FrameWork\Pages\NewForm\static\css\app.f5846fa87c0b7444cbb2fed43a784231.css.map" />
+    <None Include="Layouts\FrameWork\Pages\NewForm\static\fonts\element-icons.b02bdc1.ttf" />
+    <None Include="Layouts\FrameWork\Pages\NewForm\static\fonts\Yekan.05727d3.woff" />
+    <None Include="Layouts\FrameWork\Pages\NewForm\static\fonts\Yekan.1008c3b.ttf" />
+    <None Include="Layouts\FrameWork\Pages\NewForm\static\fonts\Yekan.1ce443b.eot" />
+    <None Include="Layouts\FrameWork\Pages\NewForm\static\js\app.a06f2983b0b8dd157909.js.map" />
+    <None Include="Layouts\FrameWork\Pages\NewForm\static\js\manifest.b8261fd2499990dd5eda.js.map" />
+    <None Include="Layouts\FrameWork\Pages\NewForm\static\js\vendor.f40e5f726d181cac211b.js.map" />
+    <None Include="Layouts\FrameWork\Pages\styles\fonts\element-icons.b02bdc1.ttf" />
+    <None Include="Layouts\FrameWork\Pages\styles\fonts\Yekan.eot" />
+    <None Include="Layouts\FrameWork\Pages\styles\fonts\Yekan.ttf" />
+    <None Include="Layouts\FrameWork\Pages\styles\fonts\Yekan.woff" />
+    <None Include="Layouts\FrameWork\Pages\styles\img\Thumbs.db" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b8e4ce7c-2a3f-43b4-b874-458cb1679c41}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{09a942cc-2c12-4a6a-8b76-0b00e29039d0}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Features\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Layouts\FrameWork\Pages\DisplayForm\index.html" />
+    <Content Include="Layouts\FrameWork\Pages\DisplayForm\static\css\app.fd0f8087f917a3f19047a3f1b9754f7d.css" />
+    <Content Include="Layouts\FrameWork\Pages\DisplayForm\static\js\app.a4fe5652152a001ae56e.js" />
+    <Content Include="Layouts\FrameWork\Pages\DisplayForm\static\js\manifest.5b01e90f40d6d9e3a98e.js" />
+    <Content Include="Layouts\FrameWork\Pages\DisplayForm\static\js\vendor.22c599b0815b5185eb0d.js" />
+    <Content Include="Layouts\FrameWork\Pages\EditForm\index.html" />
+    <Content Include="Layouts\FrameWork\Pages\EditForm\static\css\app.7635ae160011f4fb700e207b87559634.css" />
+    <Content Include="Layouts\FrameWork\Pages\EditForm\static\js\app.95e5ebac36f3498d3d2c.js" />
+    <Content Include="Layouts\FrameWork\Pages\EditForm\static\js\manifest.9a495aa6f4f6f923be59.js" />
+    <Content Include="Layouts\FrameWork\Pages\EditForm\static\js\vendor.0461c4b5cfc0b8b26770.js" />
+    <Content Include="Layouts\FrameWork\Pages\NewForm\index.html" />
+    <Content Include="Layouts\FrameWork\Pages\NewForm\static\css\app.f5846fa87c0b7444cbb2fed43a784231.css" />
+    <Content Include="Layouts\FrameWork\Pages\NewForm\static\js\app.a06f2983b0b8dd157909.js" />
+    <Content Include="Layouts\FrameWork\Pages\NewForm\static\js\manifest.b8261fd2499990dd5eda.js" />
+    <Content Include="Layouts\FrameWork\Pages\NewForm\static\js\vendor.f40e5f726d181cac211b.js" />
+    <Content Include="Layouts\FrameWork\Pages\styles\css\style.css" />
+    <Content Include="Layouts\FrameWork\Pages\styles\css\stylenew.css" />
+    <Content Include="Layouts\FrameWork\Pages\styles\fonts\Yekan.svg" />
+    <Content Include="Layouts\FrameWork\Pages\styles\img\add.png" />
+    <Content Include="Layouts\FrameWork\Pages\styles\img\Delete.png" />
+    <Content Include="Layouts\FrameWork\Pages\styles\img\Navigate.png" />
+    <Content Include="Layouts\FrameWork\Pages\styles\img\previous.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FieldTypes>
+  <FieldType>
+    <Field Name="TypeName">FileCustomField</Field>
+    <Field Name="ParentType">Text</Field>
+    <Field Name="TypeDisplayName">File</Field>
+    <Field Name="TypeShortDescription">File for attach</Field>
+    <Field Name="UserCreatable">TRUE</Field>
+    <Field Name="ShowOnListCreate">TRUE</Field>
+    <Field Name="ShowOnSurveyCreate">TRUE</Field>
+    <Field Name="ShowOnDocumentLibraryCreate">TRUE</Field>
+    <Field Name="ShowOnColumnTemplateCreate">TRUE</Field>
+    <Field Name="FieldTypeClass">FileCustomField.FileCustomField, FileCustomField, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7b41b2815ac6928e</Field>
+  </FieldType>
+</FieldTypes>
